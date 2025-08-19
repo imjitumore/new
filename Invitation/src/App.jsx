@@ -36,7 +36,7 @@ export default function App() {
       <HeartBackground />
 
       <h1 className="text-4xl sm:text-6xl font-bold mb-8 animate-gradient-text bg-gradient-to-r from-pink-600 to-white bg-clip-text text-transparent">
-        Hii Samruddhi Abdagire
+        Hii Snehal Yadav
       </h1>
 
       {/* Question */}
