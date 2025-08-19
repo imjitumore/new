@@ -1,0 +1,32 @@
+/* 🌈 Gradient animation for text */
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+.animate-gradient {
+  animation: gradient-move 3s linear infinite;
+}
+
+/* 💖 Floating heart animation */
+.heart {
+  position: absolute;
+  bottom: -20px;
+  opacity: 0.8;
+  animation-name: floatUp;
+  animation-timing-function: linear;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
