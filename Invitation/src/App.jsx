@@ -36,12 +36,12 @@ export default function App() {
       <HeartBackground />
 
       <h1 className="text-4xl sm:text-6xl font-bold mb-8 animate-gradient-text bg-gradient-to-r from-pink-600 to-white bg-clip-text text-transparent">
-        Hii Snehal Yadav
+        Hii Samruddhi Abdagire
       </h1>
 
       {/* Question */}
       <p className="text-lg sm:text-3xl mb-6 z-10">
-        Can you both go together for Bappa Darshan?
+        Can we both go together for Bappa Darshan?
       </p>
 
       {/* Buttons */}
