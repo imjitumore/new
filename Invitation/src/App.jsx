@@ -9,7 +9,7 @@ export default function App() {
   setShowConfetti(true);
 
   try {
-    await fetch("http://localhost:5000/api", {
+    await fetch("https://new-u3c9.onrender.com/api", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ answer: ans }),
